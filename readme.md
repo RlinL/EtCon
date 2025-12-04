@@ -17,10 +17,10 @@ Extensive experiments demonstrate our framework consistently improves editing re
 
 ---
 
-## 💡 Motivation & Framework
+## 💡 Motivation
 
-### The Problem: Missing Consolidation
-As illustrated in **Figure 1**, traditional methods may parametrically encode new information but fail to consistently apply it during reasoning (e.g., producing contradictory outputs).
+### The Problem: Missing Knowledge Consolidation
+Most traditional methods appear reliable under teacher-forced evaluation, but their performance drops in autoregressive generation (as in **Figure 1**), where edited knowledge is not consistently applied.
 
 <div align="center">
   <img src="assets/figure1.png" alt="Figure 1: Illustration of the knowledge editing problem" width="85%">
@@ -30,13 +30,15 @@ As illustrated in **Figure 1**, traditional methods may parametrically encode ne
 
 <br>
 
+## 🧭 Our Method
+
 ### The Solution: EtCon Framework
 **Figure 3** provides an overview of our two-stage approach:
 1.  **Edit Stage (TPSFT):** Localized edits within selected FFN layers.
 2.  **Consolidate Stage (GRPO):** Aligning parametric knowledge with CoT-based inference policy.
 
 <div align="center">
-  <img src="assets/figure3.png" alt="Figure 2: Overview of the Edit-then-Consolidate Framework" width="100%">
+  <img src="assets/figure3.png" alt="Figure 3: Overview of the Edit-then-Consolidate Framework" width="100%">
   <br>
-  <em>Figure 2: Overview of the Edit-then-Consolidate (EtCon) Framework.</em>
+  <em>Figure 3: Overview of the Edit-then-Consolidate (EtCon) Framework.</em>
 </div>
