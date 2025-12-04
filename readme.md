@@ -2,15 +2,6 @@
 
 # EtCon: Edit-then-Consolidate for Reliable Knowledge Editing
 
-**Ruilin Li**<sup>1,2</sup>, **Yibin Wang**<sup>2,4</sup>, **Wenhong Zhu**<sup>2,3</sup>, **Chenglin Li**<sup>2</sup>, **Jinghao Zhang**<sup>2</sup>, **Chenliang Li**, **Junchi Yan**<sup>2,3</sup>, **Jiaqi Wang**<sup>2</sup>
-
-<sup>1</sup>Wuhan University, <sup>2</sup>Shanghai Innovation Institute (SII), <sup>3</sup>SJTU, <sup>4</sup>Fudan University
-
-<a href="https://arxiv.org/abs/xxxx.xxxxx"><img src="https://img.shields.io/badge/Paper-arXiv-red.svg" alt="arXiv"></a>
-<a href="https://github.com/your-username/your-repo"><img src="https://img.shields.io/badge/Code-GitHub-black.svg" alt="GitHub"></a>
-
-</div>
-
 ---
 
 ## 📖 Abstract
