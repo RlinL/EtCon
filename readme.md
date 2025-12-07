@@ -42,3 +42,26 @@ Most traditional methods appear reliable under teacher-forced evaluation, but th
   <br>
   <em>Figure 3: Overview of the Edit-then-Consolidate (EtCon) Framework.</em>
 </div>
+
+## 🛠️ Edit Stage (TPSFT)
+
+```bash
+
+```
+
+## 🚀 Consolidation Stage (GRPO)
+
+After finishing the edit stage, run the consolidation stage to align the edited knowledge with CoT-based inference:
+
+1. Open `KE-Con/examples/train.sh` and fill in the paths for `MODEL_PATH`, `TRAIN_DATA`, `VAL_DATA`, `TENSORBOARD_DIR`, `EXPERIMENT_NAME`
+2. Launch the GRPO consolidation run:
+
+```bash
+bash KE-Con/examples/train.sh
+```
+
+3. Merge the consolidated checkpoint to Hugging Face format (update the path to your checkpoint):
+
+```bash
+python3 KE-Con/scripts/model_merger.py --local_dir checkpoints/easy_r1/exp_name/global_step_1/actor
+```
