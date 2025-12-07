@@ -43,13 +43,15 @@ Most traditional methods appear reliable under teacher-forced evaluation, but th
   <em>Figure 3: Overview of the Edit-then-Consolidate (EtCon) Framework.</em>
 </div>
 
-## 🛠️ Edit Stage (TPSFT)
+## 🧑‍💻 Running EtCon
+
+### 🛠️ Edit Stage (TPSFT)
 
 ```bash
 
 ```
 
-## 🚀 Consolidation Stage (GRPO)
+### 🚀 Consolidation Stage (GRPO)
 
 After finishing the edit stage, run the consolidation stage to align the edited knowledge with CoT-based inference:
 
