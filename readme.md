@@ -45,6 +45,9 @@ Most traditional methods appear reliable under teacher-forced evaluation, but th
 
 ## 🧑‍💻 Running EtCon
 
+> 💪 **Work in Progress:** We are currently consolidating code from two codebases into a unified framework to simplyfy the usage of EtCon. 
+**Coming soon!**
+
 ### 🛠️ Edit Stage (TPSFT)
 
 ```bash
